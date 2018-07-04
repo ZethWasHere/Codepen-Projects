@@ -1,0 +1,41 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body { background-color: rgba(16,35,114,0.9);
+      margin-top: 90px;
+      margin-bottom: 20px;
+      }
+
+.doctor{
+     color: white;
+     font-family: Raleway;
+     font-size: 30px;
+ }
+
+.bacg { background-image: url("https://www.walldevil.com/wallpapers/w02/784621-artwork-doctor-who-drawings-funny-illustrations-tardis-the-elder-scrolls-the-elder-scrolls-iii-morrowind-vectors.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+          
+}
+
+.con2 {  padding-top:20px;
+         padding-bottom:20px;
+         padding-left:20px;
+         padding-right:20px;
+         font-family: Raleway;
+         font-size: 150%;
+         background: rgba(255,255,255,0.3);
+       }
+
+.con3 {
+         padding-top: 150px;
+}
+
+.btn {
+       font-size:15px;
+}
+
+.but1{
+       margin-top: 40px;
+}
