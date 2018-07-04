@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Doctor Who Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js">
+</script>
+<h1 id="title">Doctor Who Survey Form</h1>
+<div id="form-layout">
+ <p id="description">Some questions for whovians on their opinion for the upcoming season!</p>
+  <form id="survey-form">
+    <div class="row-field">
+      <div class= "labels">
+        <label for="name" id="name-label">*Name:</label>
+      </div>
+      <div class="right-field">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder= "Enter thy name!" required>
+      </div>
+      <div class="labels">
+        <label for="email" id="email-label">*Email:</label>
+      </div>
+      <div class="right-field">
+        <input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter thy email!" required>
+      </div>
+      <div class="labels"> 
+        <label for="seasons" id="number-label">How many seasons of Doctor Who have you watched?</label>
+      </div>
+      <div class="right-field">
+        <input autofocus type="number" name="seasons" min="0" max="12" id="number" placeholder="Number of Seasons">
+      </div>
+      <div class="labels">
+        <label for="dropdown">Are you excited about the 13th Doctor?</label>
+      </div>
+      <div class="right-field">
+        <select id="dropdown">
+  <option value="Absolutely">Absolutely!</option>
+  <option value="Very Much">Very Much</option>
+  <option value="Meh">Meh</option>
+  <option value="Nope">Nope</option>
+</select>
+      </div>
+      <div class="labels">
+        <label for="radio"> Are you going the watch the upcoming season?</label>
+      </div>
+      <div class="right-field">
+        <input type="radio" id="yes" name="name" value="yes">
+        <label for="yes">Yep!</label>
+        <input type="radio" id="no" name="name" value="no">
+        <label for="no">Nope!</label>
+      </div>
+      <div class="labels">
+        <label for="checkbox"> What are you looking forward to the most in the next season? </label>
+      </div>
+      <div class="right-field">
+        <input type="checkbox" id="feature" name="feature" value="New Aliens and Monsters">
+        <label for="feature">New Aliens and Monsters</label>
+        <br>
+        <input type="checkbox" id="feature" name="feature" value="New Storyline">
+        <label for="feature2">New Storyline</label>
+        <br>
+        <input type="checkbox" id="feature" name="feature" value="Complex Characters">
+        <label for="feature3">Complex Characters</label>
+        <br>
+        <input type="checkbox" id="feature" name="feature" value="Everything!">
+        <label for="feature2">Everything!</label>
+      </div>
+    <div class="labels">
+      <label for="text">Tell us your views on the new Doctor! </label>
+      </div>
+      <div class="right-field">
+        <textarea id="comments" name="comments" placeholder="Write your views here!" wrap="hard" rows="5"></textarea>
+      </div>
+      <br>
+      <button id="submit" type="submit">Submit</button>
+    
+    </div>
+ </form>
+  
+</div>
+  
+  
+
+</body>
+
+</html>

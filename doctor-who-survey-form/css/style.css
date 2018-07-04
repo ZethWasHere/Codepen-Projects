@@ -1,0 +1,90 @@
+@import 
+ url("https://fonts.googleapis.com/css?family=Merriweather");
+
+html {
+  background-color: rgb(0,100,150);
+  font-family: 'Merriweather', Arial;
+}
+
+p {
+  font-size: 17px;
+}
+
+#form-layout {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 15px;
+  padding-top: 15px;
+  width: 80%;
+  opacity: 0.9;
+  
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.right-field {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: 48%;
+  
+}
+
+.labels {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  padding: 10px;
+  margin-top: 10px;
+  
+}
+
+#number {
+  width: 170px;
+}
+
+#comments {
+  margin-top: 15px;
+}
+
+#submit {
+ margin-top: 20px; 
+ margin-left: 310px;
+ background-color: rgb(0, 100, 150);
+ width: 120px;
+ height: 30px;
+ border-radius: 15px;
+ color: white;
+ border: 0px solid;
+ font-size: 1em;
+}
+
+#dropdown {
+  background-color: rgb(0,100,150);
+  color: white;
+  height: 25px;
+  width: 100px;
+  border: 0px solid;
+  font-size: 0.97em;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 520px ) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .right-field {
+    width: 100%;
+    padding-left: 10px;
+  
+  }
+  
+  #submit {
+    margin-left: 20px;
+  }
+}
