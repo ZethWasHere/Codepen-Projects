@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Chela+One');
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  font-color: black;
+}
+
+.leftnav {
+  flex-grow: 1; 
+}
+
+
+a {
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+div {
+  border: 1px solid darkcyan;
+}
+
+#header-img {
+  width: 50px;
+  margin-left: 50px;
+}
+
+#about {
+  padding: 50px;
+  height: 840px;
+  background-color: teal;
+  
+}
+
+#id {
+  height: 500px;
+}
+
+#choose {
+  height:400px;
+  background-color: cyan;
+}
+
+#features {
+  height: 600px;
+  background-color: darkcyan;
+}
+
+#subscribe {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(169,169,169);
+  height: 40px;
+  padding-top: 25px;
+  color: rgb(88,88,88);
+  font-size: 12px;
+}
+
+#fusion {
+  font-family: Helveltica;
+  font-weight: strong;
+  font-size: 50px;
+  color: White;
+  text-align: center;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    padding-bottom: 20px;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+#video {
+  width:100%;
+}
+
+form {
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+#email {
+  width: 450px;
+  height: 40px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#submit {
+padding: 11px 21px 12px;
+font-size: 19px;
+background-color: #F36C8B;
+font-weight: bold;
+text-shadow: 2px 2px #F36C8B;
+color: #ffffff;
+border-radius: 102px;
+border: 2px solid #F36C8C;
+cursor: pointer;
+box-shadow: 0 2px 0 rgba(255, 255, 255, 0.6) inset;
+}
+
+#prodate {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#features {
+  font-size: 3.5em;
+  text-align: center;
+  color: white;
+}
+
+#id {
+  box-sizing: border-box;
+}
+
+#col1 {
+  width: 50%;
+  float: left;
+  font-size: 25px;
+}
+
+#col2{
+  width: 45%;
+  float: left;
+}
+
+#headphone {
+  height: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .header {
+    font-size: 10px;
+  }
+  
+  #subscribe {
+    font-size: 2em;
+  }
+  
+  #email {
+    width: 300px;
+  }
+  
+  form {
+    width: 320px;
+  }
+  
+  #about {
+    height: 500px;
+  }
+  
+  #features {
+    font-size: 2em;
+    height: 620px;
+  }
+  
+  #col1 {
+    font-size: 16px;
+    float: center;
+    width: 70%;
+    margin-left: 50px;
+  }
+  
+  #col2 {
+    margin-left: 100px;
+    magin-top: 10px;
+  }
+}
